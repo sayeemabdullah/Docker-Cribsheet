@@ -22,3 +22,15 @@ sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
 ```
 
 If the installation was completed successfully we will see a whale saying “github.com/sayeemabdullah”.
+
+## Simple Docker Commands
+
+* **docker run name_of_the_container** - start a container
+* **docker ps** - shows list of running containers
+* **docker ps -a** - shows list of all containers (stopped & running)
+* **docker stop name_of_the_container** - stop a container
+* **docker rm name_of_the_container** - remove a container
+* **docker images** - shows list of images
+* **docker rmi name_of_the_image** - remove an image
+* **docker pull name_of_the_image** - download an image
+
