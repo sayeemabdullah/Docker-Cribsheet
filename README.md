@@ -23,8 +23,10 @@ sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
 
 If the installation was completed successfully we will see a whale saying “github.com/sayeemabdullah”.
 
+
 ## Simple Docker Commands
 
+* **docker version** - shows docker version
 * **docker run name_of_the_image** - start a container
 * **docker run name_of_the_image:name_of_the_tag** - start specific version of a container
 * **docker ps** - shows list of running containers
@@ -38,7 +40,8 @@ If the installation was completed successfully we will see a whale saying “git
 * **docker exec name_of_the_container cat /etc/hosts** - execute a command
 * **docker run -d name_of_the_container** - run a container in detach mode
 * **docker attach name/id_of_the_container** - run a container in attach mode
-* **docker version** - shows docker version
+* **docker run -it name_of_the_container** - run a container with `i`:interactive and `t`:terminal mode
+
 
 
 
