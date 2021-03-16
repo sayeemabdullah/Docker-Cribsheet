@@ -56,9 +56,9 @@ If the installation was completed successfully we will see a whale saying “git
 
 * **docker run -it name_of_the_container** - runs a container with `i`:interactive and `t`:terminal mode
 
-* **docker run -p port_number_of_local_host:docker_container_port name_of_the_container** - map port_number_of_local_host to docker_container_port
+* **docker run -p port_number_of_local_host:docker_container_port name_of_the_container** - maps `port_number_of_local_host` to `docker_container_port`
 
-* **docker run -v directory/outside/the/container:directory/inside/the/container name_of_the_container** - mounts the directory/outside/the/container to directory/inside/the/container
+* **docker run -v directory/outside/the/container:directory/inside/the/container name_of_the_container** - mounts the `directory/outside/the/container` to `directory/inside/the/container`
 
 * **docker inspect name_of_the_container** - returns details in a JSON format
 
