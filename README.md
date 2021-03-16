@@ -24,23 +24,24 @@ sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
 If the installation was completed successfully we will see a whale saying “github.com/sayeemabdullah”.
 
 
-## Simple Docker Commands
+## Docker Commands
 
 * **docker version** - shows docker version
-* **docker run name_of_the_image** - start a container
-* **docker run name_of_the_image:name_of_the_tag** - start specific version of a container
+* **docker run name_of_the_image** - starts a container
+* **docker run name_of_the_image:name_of_the_tag** - starts specific version of a container
+* **docker run -d name_of_the_container** - runs a container in detach mode
+* **docker run name_of_the_container sleep number_of_seconds** - container sleeps after n second
+* **docker run -it name_of_the_container** - runs a container with `i`:interactive and `t`:terminal mode
 * **docker ps** - shows list of running containers
 * **docker ps -a** - shows list of all containers (stopped & running)
-* **docker stop name_of_the_container** - stop a container
-* **docker rm name_of_the_container** - remove a container
+* **docker stop name_of_the_container** - stops a container
+* **docker rm name_of_the_container** - removes a container
 * **docker images** - shows list of images
-* **docker rmi name_of_the_image** - remove an image
-* **docker pull name_of_the_image** - download an image
-* **docker run name_of_the_container sleep number_of_seconds** - container sleeps after n second
-* **docker exec name_of_the_container cat /etc/hosts** - execute a command
-* **docker run -d name_of_the_container** - run a container in detach mode
-* **docker attach name/id_of_the_container** - run a container in attach mode
-* **docker run -it name_of_the_container** - run a container with `i`:interactive and `t`:terminal mode
+* **docker rmi name_of_the_image** - removes an image
+* **docker pull name_of_the_image** - downloads an image
+* **docker exec name_of_the_container cat /etc/hosts** - executes a command
+* **docker attach name/id_of_the_container** - runs a container in attach mode
+
 
 
 
