@@ -33,4 +33,9 @@ If the installation was completed successfully we will see a whale saying “git
 * **docker images** - shows list of images
 * **docker rmi name_of_the_image** - remove an image
 * **docker pull name_of_the_image** - download an image
+* **docker run name_of_the_container sleep number_of_seconds** - container sleeps
+* **docker exec name_of_the_container cat /etc/hosts** - execute a command
+* **docker run -d name_of_the_container** - run a container in detach mode
+* **docker attach name/id_of_the_container** - run a container in attach mode
+
 
