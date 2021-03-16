@@ -37,6 +37,7 @@ If the installation was completed successfully we will see a whale saying “git
 * **docker exec name_of_the_container cat /etc/hosts** - execute a command
 * **docker run -d name_of_the_container** - run a container in detach mode
 * **docker attach name/id_of_the_container** - run a container in attach mode
+* **docker version** - shows docker version
 
 
 
