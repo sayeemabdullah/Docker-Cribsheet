@@ -60,7 +60,7 @@ If the installation was completed successfully we will see a whale saying “git
 
 * **docker run -v directory/outside/the/container:directory/inside/the/container name_of_the_container** - mounts the directory/outside/the/container to directory/inside/the/container
 
-* **docker inspect name_of_the_container** - returns details in a Json format
+* **docker inspect name_of_the_container** - returns details in a JSON format
 
 * **docker logs name/id_of_the_container** - returns logs of the container
 
