@@ -1,6 +1,6 @@
 # Docker-Cribsheet
 
-> I just started learning **Docker** so this is just a small initiative to make a crib sheet that may help me or anyone else in the future. You can also check out my [CSS Cribsheet](https://github.com/sayeemabdullah/CSS-Cribsheet) and [React-Cribsheet](https://github.com/sayeemabdullah/React-Cribsheet).
+> I just started learning **Docker** so this is just a small initiative to make a crib sheet that may help me or anyone else in the future. You can also check out my [CSS Cribsheet](https://github.com/sayeemabdullah/CSS-Cribsheet) and [React Cribsheet](https://github.com/sayeemabdullah/React-Cribsheet).
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 * **docker exec name_of_the_container cat /etc/hosts** - executes a command
 
-* **docker attach name/id_of_the_container** - runs a container in attach mode
+* **docker attach name_or_id_of_the_container** - runs a container in attach mode
 
 * **docker run -d name_of_the_container** - runs a container in detach mode
 
@@ -64,8 +64,7 @@ ___
 
 * **docker inspect name_of_the_container** - returns details in a JSON format
 
-* **docker logs name/id_of_the_container** - returns logs of the container
-
+* **docker logs name_or_id_of_the_container** - returns logs of the container
 
 ___
 
