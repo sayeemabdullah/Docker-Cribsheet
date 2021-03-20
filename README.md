@@ -69,7 +69,7 @@ ___
 
 * **docker run -d name_of_the_container** - runs a container in detach mode
 
-* **docker run -it name_of_the_container** - runs a container with `i`:interactive and `t`:terminal mode
+* **docker run -it name_of_the_container** - runs a container with `i`--> interactive and `t`--> terminal mode
 
 * **docker run -p port_number_of_local_host`:`docker_container_port name_of_the_container** - maps `port_number_of_local_host` to `docker_container_port`
 
@@ -80,3 +80,16 @@ ___
 * **docker logs name_or_id_of_the_container** - returns logs of the container
 
 ___
+
+
+
+
+
+
+
+
+
+
+
+
+
