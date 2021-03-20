@@ -78,18 +78,8 @@ ___
 * **docker inspect name_of_the_container** - returns details in a JSON format
 
 * **docker logs name_or_id_of_the_container** - returns logs of the container
-
 ___
 
+## Docker Images
 
-
-
-
-
-
-
-
-
-
-
-
+___
