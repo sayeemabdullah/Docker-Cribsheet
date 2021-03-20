@@ -24,6 +24,19 @@ sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
 
 If the installation was completed successfully we will see a whale saying “github.com/sayeemabdullah”.
 
+After installation, we might not be able to use the commands without the keyword `sudo`. Now to run the docker without the root we can use the following commands:
+
+``` bash
+
+$ sudo groupadd docker
+
+$ sudo usermod -aG docker $USER
+
+$ newgrp docker
+
+```
+If the last command doesn’t work reboot your machine and try again. 
+
 ___
 
 ## Docker Commands
@@ -67,14 +80,3 @@ ___
 * **docker logs name_or_id_of_the_container** - returns logs of the container
 
 ___
-
-
-
-
-
-
-
-
-
-
-
