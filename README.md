@@ -122,7 +122,6 @@ And to push the image to **Docker Registry**, we will use the following command:
 
 docker push accountName/imageName
 
-
 ```   
 
 ___
