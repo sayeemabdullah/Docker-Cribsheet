@@ -108,7 +108,7 @@ Docker file works in layers. If any layer fails then the docker will reuse the p
 
 ### Creating & Pushing Docker Image Command
 
-To make an image locally we will use the following command:
+To create an image locally we will use the following command:
 
 ``` shell
 
