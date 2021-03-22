@@ -84,7 +84,7 @@ ___
 
 Before creating the docker image we have to create a **docker file** call it **Dockerfile**. After creating the docker file we will create an image with the docker command. 
 
-### Dockefile
+### Dockerfile
 
 Docker file is a text file that consists of two parts instructions and arguments.
 
@@ -103,5 +103,26 @@ COPY . /opt/source-code	// Copy source code
 ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run	// Specify Entrypoint
 
 ```
+
+Docker file works in layers. If any layer fails then the docker will reuse the previous layers from the cache. 
+
+### Creating & Pushing Docker Image Command
+
+To make an image locally we will use the following command:
+
+``` shell
+
+docker build Dockerfile -t name/imageName
+
+```
+
+And to push the image to **Docker Registry**, we will use the following command:
+
+``` shell
+
+docker push accountName/imageName
+
+
+```   
 
 ___
