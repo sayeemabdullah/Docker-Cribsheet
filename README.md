@@ -18,7 +18,7 @@ To check we can run the following command:
 
 ``` bash
 
-sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
+$ sudo docker run docker/whalesay cowsay github.com/sayeemabdullah
 
 ```
 
