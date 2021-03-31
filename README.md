@@ -90,15 +90,15 @@ Docker file is a text file that consists of two parts instructions and arguments
 
 ``` text
 
-FROM Ubuntu		// Start from a base operating system or another image 
+FROM Ubuntu                                             // Start from a base operating system or another image 
 
-RUN agt-get update	// Intsall all dependencies 
-RUN agt-get install python	// Install all dependencies 
+RUN agt-get update                                      // Intsall all dependencies 
+RUN agt-get install python	                            // Install all dependencies 
 
-RUN pip install flask	// Install all dependencies 
-RUN pip install flask-mysql	// Install all dependencies 
+RUN pip install flask	                                  // Install all dependencies 
+RUN pip install flask-mysql	                            // Install all dependencies 
 
-COPY . /opt/source-code	// Copy source code
+COPY . /opt/source-code	                                // Copy source code
 
 ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run	// Specify Entrypoint
 
