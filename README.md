@@ -92,7 +92,7 @@ Docker file is a text file that consists of two parts instructions and arguments
 
 FROM Ubuntu     // Start from a base operating system or another image 
 
-RUN agt-get update      // Intsall all dependencies 
+RUN agt-get update      // Install all dependencies 
 RUN agt-get install python      // Install all dependencies 
 
 RUN pip install flask     // Install all dependencies 
