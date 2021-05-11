@@ -104,7 +104,7 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run      // Specify Entrypoin
 
 ```
 
-Docker file works in layers. If any layer fails then the docker will reuse the previous layers from the cache. 
+Docker file works in layers. If any layer fails then the docker will reuse the previous layers from the cache and start from when it failed. 
 
 ### Creating & Pushing Docker Image Command
 
