@@ -45,6 +45,8 @@ ___
 
 * **docker run name_of_the_image** - starts a container
 
+* **docker run -d --name name_of_the_container name_of_the_image** - starts a container with a name
+
 * **docker run name_of_the_image:name_of_the_tag** - starts specific version of a container
 
 * **docker run name_of_the_container sleep number_of_seconds** - container sleeps after n second
