@@ -80,6 +80,8 @@ ___
 * **docker inspect name_of_the_container** - returns details in a JSON format
 
 * **docker logs name_or_id_of_the_container** - returns logs of the container
+
+* **docker run -e variable_name=value_to_set** - run container by setting an environment variable
 ___
 
 ## Docker Images
