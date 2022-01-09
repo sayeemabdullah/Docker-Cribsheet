@@ -129,3 +129,11 @@ docker push accountName/imageName
 ```   
 
 ___
+
+### Commands vs Entrypoint
+
+ENTRYPOINT represents an entrypoint and CMD represents commands in Dockerfiles. 
+
+To make our container execute a command, we use *CMD command param* or *CMD ["command","param"]*. However, if we want to pass the parameter from the command line, we can use entrypoints like ENTRYPOINT["command"]. The container will fail to run without passing a parameter after doing this, so in order to fix this, we can use CMD["param"] for setting a default parameter.
+
+___
