@@ -137,3 +137,17 @@ ENTRYPOINT represents an entrypoint and CMD represents commands in Dockerfiles.
 To make our container execute a command, we use *CMD command param* or *CMD ["command","param"]*. However, if we want to pass the parameter from the command line, we can use entrypoints like ENTRYPOINT["command"]. The container will fail to run without passing a parameter after doing this, so in order to fix this, we can use CMD["param"] for setting a default parameter.
 
 ___
+
+### Docker Compose
+
+We will make a `YAML` docker-compose file where there will be a dictionary of container names where we will write the name of the images, ports and links as follows:
+
+![Screenshot 2022-01-10 at 10 24 23 AM](https://user-images.githubusercontent.com/31423599/148718298-842494ed-76ab-45c5-9598-af817ac2584a.png)
+
+This is version 1, and for version 2 & 3 everything will be under 'Services'. Version must be specified on top.
+
+
+
+
+
+___
