@@ -144,10 +144,10 @@ We will make a `YAML` docker-compose file where there will be a dictionary of co
 
 ![Screenshot 2022-01-10 at 10 24 23 AM](https://user-images.githubusercontent.com/31423599/148718298-842494ed-76ab-45c5-9598-af817ac2584a.png)
 
-This is version 1, and for version 2 & 3 everything will be under 'Services'. Version must be specified on top.
+This is version 1, and for version 2 & 3 everything will be under 'Services'. Version must be specified on top. We can also add networks like the following: 
 
 
-
+![Screenshot 2022-01-10 at 1 08 26 PM](https://user-images.githubusercontent.com/31423599/148729109-a854a894-bfb4-4bbc-920f-915720b39d66.png)
 
 
 ___
