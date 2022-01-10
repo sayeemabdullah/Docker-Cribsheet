@@ -82,6 +82,8 @@ ___
 * **docker logs name_or_id_of_the_container** - returns logs of the container
 
 * **docker run -e variable_name=value_to_set** - run container by setting an environment variable
+
+* **docker run --link name_of_container_to_link:name_of_container_to_link name_of_the_image** - run image by linking with container(s)
 ___
 
 ## Docker Images
