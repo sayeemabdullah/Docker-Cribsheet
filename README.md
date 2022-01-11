@@ -86,7 +86,17 @@ ___
 * **docker run --link name_of_container_to_link:name_of_container_to_link name_of_the_image** - run image by linking with container(s)
 
 * **docker-compose up** - build the docker compose file 
+
+* **docker network ls** - view list of networks
+
+* **docker network inspect name_of_the_network** - inspect network
+
+* **docker run --network=name_of_the_network name_of_the_image** - run image with attach it to a network
+
+* **docker network create --driver name_of_the_driver --subnet subnet_ip --gateway gateway_ip name_of_the_network** - create network
+
 ___
+
 
 ## Docker Images
 
